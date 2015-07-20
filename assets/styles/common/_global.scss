@@ -1,0 +1,495 @@
+body {
+	padding-top: 68px;
+
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.stage {
+	max-width: 1040px;
+}
+.edgeLoad-EDGE-192660529 {
+	visibility:hidden;
+}
+
+.edgeLoad-EDGE-82013008 { visibility:hidden; }
+
+
+.navbar-header .navbar-brand {
+	font-size:1em;
+	text-transform:uppercase;
+	font-weight:500;
+	letter-spacing:0.1em;
+	color:#8da245;
+}
+.navbar-right {
+	padding-right: 0;
+}
+
+.brand-logo {
+	padding:0.4em 0.4em 0.4em 1em;
+}
+
+.brand-text {
+	padding:2em 0 0 0.5em;
+}
+
+.navbar-brand span {
+	font-weight:100;
+}
+
+
+.navbar-toggle {
+	border:none;
+	margin-top:1.3em;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background:white;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color:#86993C;
+}
+
+.navbar-default .navbar-nav>.dropdown>a .caret {
+	border-top-color: #fff;
+	border-bottom-color: #efefef;
+}
+
+.nav .dropdown-toggle {
+	padding-right: 0;
+
+}
+.post-nav {
+	max-width: 581px;
+}
+
+.pager {
+	margin-top: 0.4em;
+}
+
+.post-nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+.previous {
+	float: right;
+	margin-right:1.5em;
+}
+
+.pager .previous a, .pager .next a{
+	background: #c7c7c7;
+	color: white;
+	padding: 0.4em 0.6em;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 0.12em;
+	margin-top: 0.5em;
+}
+
+.pager .previous a:hover, .pager .next a:hover {
+	background: #a2a2a2;
+}
+
+.dropdown-menu {
+	border-bottom:none;
+	border-right:none;
+	border-left:none;
+
+}
+
+.admin-bar .navbar {
+	margin-top: 40px;
+}
+
+
+/*---- slider -------*/
+
+.carousel-inner .item div {
+	/*float:left; */
+}
+
+.slider-thumb {
+	margin:0;
+	float:left;
+	width:9.2%;
+
+}
+
+.slider-thumb a:first-child img{
+	margin:0;
+	margin-bottom:18%;
+
+}
+
+.reception {
+	width:80%;
+	float:left;
+}
+
+
+.slider-link {
+
+}
+
+
+/* ---Laning page - Header styles--- */
+
+.page-header {
+	border-bottom: none;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+
+.page-header h1 {
+	font-size: 1.1em;
+	font-weight: 500;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.single .entry-title{
+	margin: 0 0 1em 0;
+	line-height: 0.8em;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	height: 12px;
+}
+
+article .entry-title {
+	margin: 0 0 1em 0;
+	line-height: 0.8em;
+	background: #c7c7c7;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	height:52px;
+}
+
+.entry-title a{
+	font-size: 0.6em;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+	line-height: 0.5em;
+	color: white;
+	letter-spacing: 0.08em;
+}
+
+/* ---Laning page - Grid styles--- */
+
+
+.featured {
+	display: inline-block;
+	float: left;
+	width: 275px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.featured h2 {
+	margin: 0;
+}
+
+
+
+
+/* -- Post page --*/
+
+.entry-content p {
+	margin: 0;
+}
+
+
+/*------------ Profile  & People Page style -----------*/
+
+.profile h1 {
+
+}
+
+.profile img {
+	margin-bottom: 1em;
+	padding-right: 1em;
+}
+
+.people img {
+	padding-right: 1em;
+	padding-bottom: 1em;
+}
+
+.profile .col-md-6 {
+	padding-left: 0;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.page-template-template-profile-php .profile {
+	padding-left:0;
+}
+
+/* Images */
+.entry-content img,
+.comment-content img,
+.widget img {
+	max-width: 100%; /* Fluid images for posts, comments, and widgets */
+}
+img[class*="align"],
+img[class*="wp-image-"] {
+	height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+img.size-full {
+	max-width: 100%;
+	width: auto; /* Prevent stretching of full-size images with height and width attributes in IE8 */
+}
+
+
+/*------------ Profile--> BIO Page style -----------*/
+
+.bio {
+
+}
+
+.page-template .bio img {
+	padding-bottom: 1em;
+	padding-right: 1em;
+	padding-top: 3em;
+	max-width: 300px;
+
+}
+
+.bio p {
+	max-width: 35em;
+
+
+}
+
+
+
+/* -------- iPhone ---------- */
+
+@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 568px) {
+
+		.slider-thumb a:first-child img{
+			margin-bottom:13%;
+		}
+
+		.slider-thumb {
+			width:9.4%;
+		}
+
+	}/*    <--- Close iPhone --- */
+
+
+
+/* --- iPad --- */
+
+@media only screen
+	and (min-device-width : 768px )
+	and (max-device-width : 1024px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+
+		.slider-thumb a:first-child img{
+			margin-bottom:15%;
+		}
+
+		.reception {
+			width:78.1%;
+		}
+
+		.slider-thumb {
+			width:9.1%;
+		}
+
+	}/* <--- Close iPad --- */
+
+
+
+
+/*---- footer-------*/
+
+.footer {
+	padding-top:2.5em;
+	text-transform:uppercase;
+	font-weight:100;
+	font-size: 0.9em;
+}
+
+
+/* -----------------///// @screen-sm-min /////-----------> */
+
+@media (min-width: 768px)  {
+
+	.brand-logo {
+		padding:0.4em 0.4em 0.4em 0;
+	}
+
+	.admin-bar .navbar {
+		margin-top: 30px;
+	}
+
+	.brand-text {
+		padding:2.1em 0 0 0;
+		margin:0;
+		display:inline-block;
+	}
+
+	.navbar>.container .navbar-brand {
+		margin-left: 0;
+	}
+
+	.slider-thumb {
+		width:65px;
+	}
+
+	.slider-thumb a:first-child img{
+		margin-bottom:12px;
+	}
+
+
+	.reception {
+		width:565px;
+	}
+
+	.slide-one-first {
+		margin-right:11px;
+	}
+
+	.slide-one-last {
+		margin:0;
+		margin-left:11px;
+	}
+
+	.page-header h1 {
+		margin-right: 2.7em;
+
+	}
+
+	.footer {
+		text-align:left;
+	}
+
+
+} /* <------ close 768px breakpoint///// @screen-sm-min /////-------*/
+
+
+
+/*
+##
+###    ##   ###
+###  ## ####
+#########
+##################
+##################
+#######
+##  ## ###
+###   ##  ####
+##
+*/
+
+/* -----------------///// @screen-md-min /////-----------> */
+
+@media (min-width: 992px) {
+
+
+	.slider-thumb {
+		width:9%;
+	}
+
+	.slider-thumb a:first-child img{
+		margin-bottom:14px;
+	}
+
+
+	.reception {
+		width:78%;
+		float:left;
+	}
+
+	.slide-one-first {
+		margin-right:17px;
+	}
+
+	.slide-one-last {
+		margin-left:17px;
+	}
+
+	.profile-text {
+		margin-top:5.2em;
+	}
+
+
+} /* <----- close 992px breakpoint///// @screen-md-min /////-------*/
+
+
+/*
+##
+###    ##   ###
+###  ## ####
+#########
+##################
+##################
+#######
+##  ## ###
+###   ##  ####
+##
+*/
+
+/* -----------------///// @screen-lg-min /////-----------> */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+
+	.content {
+		margin-left: -10px;
+	}
+
+	.archive .content {
+		max-width: 745px;
+		margin-left: 100px;
+	}
+
+
+
+}
+
+/* -----------------///// @screen-lg-min /////-----------> */
+
+@media (min-width: 1200px) {
+
+	.brand-logo {
+		padding:0.4em 0.4em 0.4em 0em;
+	}
+
+
+	.left-collum {
+		width:100px;
+		height:615px;
+		margin-right:10px;
+		float:left;
+	}
+
+	.footer {
+	}
+
+	.post-nav li {
+		margin-right: 10px;
+	}
+
+	.post-nav {
+		max-width:1170px;
+	}
+
+
+} /* <------ close 1200px breakpoint///// @screen-lg-min /////-------*/
+
+
+
+
+
